@@ -1,0 +1,15 @@
+//creating var in kelvin
+const kelvin = 0;
+console.log(kelvin);
+
+//Converting Kelvin to Celsius
+const celsius = kelvin - 273;
+
+//Conversion Formula
+let fahrenheit = celsius * (9/5) + 32;
+
+//Integer value to Fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+console.log(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
